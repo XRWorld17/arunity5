@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de58dacbbd5164330ba1f48de852f2d2
+guid: 3ed320a9dc0fa4d8eaf7fd90cda097d9
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -12,6 +12,11 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
+      Android: Android
+    second:
+      enabled: 1
+      settings: {}
+  - first:
       Any: 
     second:
       enabled: 0
@@ -22,13 +27,6 @@ PluginImporter:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  - first:
-      Windows Store Apps: WindowsStoreApps
-    second:
-      enabled: 1
-      settings:
-        CPU: ARM
-        SDK: PhoneSDK81
   userData: 
   assetBundleName: 
   assetBundleVariant: 
