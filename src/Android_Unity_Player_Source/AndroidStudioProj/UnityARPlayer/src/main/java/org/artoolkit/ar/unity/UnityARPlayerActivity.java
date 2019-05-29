@@ -62,6 +62,8 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
+
+import com.unity3d.player.UnityPlayerActivity;
 import com.unity3d.player.UnityPlayerNativeActivity;
 import org.artoolkit.ar.base.camera.CameraPreferencesActivity;
 import jp.epson.moverio.bt200.DisplayControl;
@@ -74,7 +76,8 @@ import android.widget.Toast;
 
 //For Epson Moverio BT-200. BT200Ctrl.jar must be in libs/ folder.
 
-public class UnityARPlayerActivity extends UnityPlayerNativeActivity {
+//public class UnityARPlayerActivity extends UnityPlayerNativeActivity {
+public class UnityARPlayerActivity extends UnityPlayerActivity {
 
     protected final static String TAG = "UnityARPlayerActivity";
 
